@@ -1,7 +1,16 @@
+---
+title: "Codebook template"
+author: "Your name here"
+date: "The date here"
+output:
+  html_document:
+    keep_md: yes
+---
+
 ## Project Description
 Short description of the project
 
-##Study design and data processing
+## Study design and data processing
 
 ###Collection of the raw data
 Description of how the data was collected.
