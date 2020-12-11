@@ -1,4 +1,14 @@
 # Fall-2020-Independent-Study
-Independent Research on COVID-19 and U.S County Characteristics.
+### Tomas Meade
+### Professor Ming-Wen An
+# Independent Research on COVID-19 and U.S County Characteristics
 
+## Research Focus:
+Using data from USAFacts on Coronavirus cases in every county in the U.S and Census Bureau data on the characteristics of those counties in order to create visualizations and potentially identity relationships between characteristics of counties and the spread of Coronavirus. 
+
+## Code Outline:
+First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data and Coronavirus case data on every county. These data were then be merged into a single DataFrame by matching the codes of each county. Using this DataFrame, the relationship between the various characteristics of counties and the cases in counties were examined through visualizations. A function was created to classify each county as very small, small, medium, large and very large based on the county's population. These classifications were then used to create facet plots seperated by county size. A new DataFrame was then created with only counties in the state of Pennsylvania in order to create visualizations on a smaller scale and also incorporate voting data. To do this, a function was created to classify each state as majority democratic or majority republican based on whether the county had more total democratic or republican votes. This was achieved by merging a new dataset with Pennsylvania voting statistics.
+
+## Results
+The first visualization created was a facet plot of poverty rate vs. cumulative cases as of 10/12/2020 seperated by county size.
 ![](Visualizations/PovRateVSmall.png)
