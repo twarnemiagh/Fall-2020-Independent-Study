@@ -104,3 +104,6 @@ https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
 
 Dataset from New York Times:
 https://github.com/nytimes/covid-19-data/tree/master/mask-use
+
+Dataset with Pennsylvania voting statistics:
+https://www.dos.pa.gov/VotingElections/OtherServicesEvents/VotingElectionStatistics/Pages/VotingElectionStatistics.aspx
