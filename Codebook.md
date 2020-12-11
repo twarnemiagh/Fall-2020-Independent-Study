@@ -60,8 +60,8 @@ The proportion of people who wear a mask always in each county.
 
 
 ## Sources
-Datasets from the American Community Survey: \\
+Datasets from the American Community Survey: \newline
 https://data.census.gov/cedsci/table?g=0100000US.050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2019.DP05&hidePreview=false
 
-Dataset from USAFacts: \\
+Dataset from USAFacts: \newline
 https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
