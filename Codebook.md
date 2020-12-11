@@ -5,7 +5,7 @@ This projet ueses data on Coronavirus cases in every county in the U.S and Censu
 ## Study design and data processing
 
 ### Collection of data
-Data was collected from USAFacts and the American Community Survey.
+Data was collected from USAFacts and the American Community Survey
 
 ### Descirption of data
 First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data from the New York Times and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. 
