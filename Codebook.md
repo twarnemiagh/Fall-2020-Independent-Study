@@ -8,7 +8,10 @@ This projet ueses data on Coronavirus cases in every county in the U.S and Censu
 Data was collected from USAFacts and the American Community Survey.
 
 ### Descirption of data
-First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data from the New York Times and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. https://github.com/twarnemiagh/Fall-2020-Independent-Study/tree/main/Datasets
+First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data from the New York Times and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. 
+
+The datasets can be found here: 
+https://github.com/twarnemiagh/Fall-2020-Independent-Study/tree/main/Datasets
 
 ## Description of the variables
 Datasets can be found in the data file:
