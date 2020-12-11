@@ -10,6 +10,35 @@ Data was collected from USAFacts and the American Community Survey.
 ### Descirption of data
 First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data from the New York Times and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. 
 
+## Datasets:
+
+### ACSDP5Y2018_DEMOGRAPHIC.DP05_data_with_overlays_2020-09-24T095640.csv
+Demographic data from the American Community Survey.
+
+### ACSDP5Y2018_ECONOMIC.DP03_data_with_overlays_2020-09-24T103032.csv
+Economic data from the American Community Survey.
+
+### ACSDP5Y2018_SOCIAL.DP02_data_with_overlays_2020-09-28T114150.csv
+Social characteristics data from the American Community Survey.
+
+### Independent_Study_Var.csv
+Dataset containing the variables main variables used in this project.
+
+### county-codes-master.csv
+Dataset with each unique code for all counties in the U.S. Used in this project in order to merge datasets by county code.
+
+### covid_confirmed_usafacts.csv
+Dataset with total cumulative COVID-19 cases by data in each county from USAFacts.
+
+### currentvotestats.csv
+Dataset with voting data on each county in Pennsylvania.
+
+### mask-use-by-county.csv
+Dataset containing mask usage by county from the New York Times. 
+
+### us-counties.csv
+Dataset countaing all counties in the U.S
+
 The datasets can be found here: 
 https://github.com/twarnemiagh/Fall-2020-Independent-Study/tree/main/Datasets
 
