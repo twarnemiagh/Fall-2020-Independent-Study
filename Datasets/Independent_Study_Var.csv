@@ -1,0 +1,12 @@
+Label,Description
+DP03_0119PE,Poverty rate
+DP03_0062E,Median household income
+DP03_0099E,Percent with no health insurance
+DP03_0021PE,Percent using public transportation
+DP05_0017PE,Percent that is 85 years or older
+DP02_0064PE,Percent with a bachelor's degree
+DP05_0038PE,Percent black or african american
+DP05_0039PE,Percent american/alaska indian
+case_rate,Case rate
+mask_rarely-never,Percent wear mask rarely or never
+mask_always,Percent wear mask always
