@@ -8,7 +8,7 @@ This projet ueses data on Coronavirus cases in every county in the U.S and Censu
 Data was collected from USAFacts and the American Community Survey.
 
 ### Descirption of data
-First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. . [link to the readme document that describes the code in greater detail]()
+First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data from the New York Times and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. . [link to the readme document that describes the code in greater detail]()
 
 ## Description of the variables
 Datasets can be found in the data file:
@@ -57,6 +57,10 @@ The addition of the proportions of people who wear a mask rarely or never in eac
 The proportion of people who wear a mask always in each county.
  - Numeric percent estimate
  
+### dom_party
+The dominate party affliation in each county in the state of Pennsylvania. The variable takes the value democratic majority if there were more total democratic votes otherwise it takes the value republican majority.
+ - Categorical binary label
+ 
 
 
 ## Sources
@@ -65,3 +69,6 @@ https://data.census.gov/cedsci/table?g=0100000US.050000&d=ACS%205-Year%20Estimat
 
 Dataset from USAFacts: 
 https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
+
+Dataset from New York Times:
+https://github.com/nytimes/covid-19-data/tree/master/mask-use
