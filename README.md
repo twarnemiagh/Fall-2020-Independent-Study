@@ -3,7 +3,7 @@
 ### Professor Ming-Wen An
 # Independent Research on COVID-19 and U.S County Characteristics
 
-## Research Focus:
+## Research Focus
 Using data from USAFacts on Coronavirus cases in every county in the U.S and Census Bureau data on the characteristics of those counties in order to create visualizations and potentially identity relationships between characteristics of counties and the spread of Coronavirus. 
 
 ## Code Outline:
