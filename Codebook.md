@@ -1,46 +1,67 @@
 ## Project Description
-Short description of the project
+This projet ueses data on Coronavirus cases in every county in the U.S and Census Bureau data on the characteristics of those counties in order to create visualizations and potentially identity characteristics of counties that were able to contain the spread of Coronavirus. 
+
 
 ## Study design and data processing
 
-### Collection of the raw data
-Description of how the data was collected.
+### Collection of data
+Data was collected from USAFacts and the American Community Survey.
 
-### Notes on the original (raw) data 
-Some additional notes (if avaialble, otherwise you can leave this section out).
+### Descirption of data
+First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data and Coronavirus case data on every county from USAFacts. These data will then be merged into a single DataFrame by matching the codes of each county. . [link to the readme document that describes the code in greater detail]()
 
-## Creating the tidy datafile
+## Description of the variables
+Datasets can be found in the data file:
 
-### Guide to create the tidy data file
-Description on how to create the tidy data file (1. download the data, ...)/
+### DP03_0119PE 
+Poverty rate in each county.
+ - Numeric percent estimate
 
-### Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+### DP03_0062E
+Median household income in each county.
+ - Numeric dollar estimate
+ 
+### DP03_0099E
+Percent of population with no health insurance in each county.
+ - Numeric percent estimate
 
-## Description of the variables in the tiny_data.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
+### DP03_0021PE
+Percent of population using public transportation to commute to work in each county.
+ - Numeric percent estimate
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+### DP05_0017PE 
+Percent of population that is 85 years or older in each county.
+ - Numeric percent estimate
 
-### Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
+### DP02_0064PE
+Percent of population with a bachelor's degree in each county.
+ - Numeric percent estimate
+ 
+### DP05_0038PE
+Percent of population that is black or african-american in each county.
+ - Numeric percent estimate
 
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
+### DP05_0039PE
+Percent of population that is american indian or alaska native in each county.
+ - Numeric percent estimate
+ 
+### case_rate
+Rate of cases in each county calculated by diving confirmed cases in a county by the total population in that county.
+ - Numeric percent estimate
+ 
+### mask_rarely-never
+The addition of the proportions of people who wear a mask rarely or never in each county.
+ - Numeric percent estimate
 
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
+### mask_always
+The proportion of people who wear a mask always in each county.
+ - Numeric percent estimate
+ 
 
-#### Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
 
 ## Sources
-Sources you used if any, otherise leave out.
+Datasets from the American Community Survey: 
+https://data.census.gov/cedsci/table?g=0100000US.050000&d=ACS%205-Year%20Estimates%20Data%20Profiles&tid=ACSDP5Y2019.DP05&hidePreview=false
 
-## Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
+Dataset from USAFacts:
+https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/
