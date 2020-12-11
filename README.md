@@ -60,9 +60,6 @@ Here are some of those visualizations.
 ### PA: Percent of population with no health insurance
 ![](Visualizations/PAFacetNoHealthIns.png)
 
-### PA: Percent of population using public transportation to work
-![](Visualizations/PAFacetPublicTrans.png)
-
 ### PA: Percent of population that is 85 years or older
 ![](Visualizations/PAFacetPopOver85.png)
 
@@ -73,7 +70,7 @@ Here are some of those visualizations.
 ![](Visualizations/PAFacetMaskAlways.png)
 
 
-We can see that these scatter plots suggest a slight association between some of these variables and COVID-19 cases. Most notably being the percent of the population that is unisured, which is much more apparent in Pennsylvania alone. There are also positve associations for median household income, the percent of population that uses public transportation and the percent of the population that is black or African American. 
+We can see that these scatter plots suggest a slight association between some of these variables and COVID-19 cases. Most notably being the percent of the population that is unisured, which is much more apparent in Pennsylvania alone. There are also positve associations for median household income and the percent of the population that is black or African American. 
 
 There are many different other variables contained in the datasets from the American Community Survey, this project only focuses on a few of them. The final DataFrame that was created in the code contains all variables, which consists of over 1500 different variables in total. This could be beneficial to anyone who wants to conduct research on the COVID-19 as it relates to social, economic and demographic characteristics of counties in the U.S. 
 
