@@ -3,8 +3,10 @@
 ### Professor Ming-Wen An
 # Independent Research on COVID-19 and U.S County Characteristics
 
-## Research Focus:
-Using data from USAFacts on Coronavirus cases in every county in the U.S and Census Bureau data on the characteristics of those counties in order to create visualizations and potentially identity relationships between characteristics of counties and the spread of Coronavirus. 
+
+
+## Research Focus and Background:
+This project focuses on using data from USAFacts on Coronavirus cases in every county in the U.S and Census Bureau data on the characteristics of those counties in order to create visualizations and potentially identity relationships between characteristics of counties and the spread of Coronavirus. There are many different variables contained in the datasets from the Census Bureau, this project only focuses on a few of them. The final DataFrame that was created in the code contains all variables, which consists of over 1500 different variables in total. This could be beneficial to anyone who wants to conduct research on the COVID-19 as it relates to social, economic and demographic characteristics of counties in the U.S.
 
 ## Code Outline:
 First economic and demographic data on every county in the United States from the American Community Survey were be uploaded into the Jupyter Notebook as well as mask wearing data and Coronavirus case data on every county. These data were then be merged into a single DataFrame by matching the codes of each county. Using this DataFrame, the relationship between the various characteristics of counties and the cases in counties were examined through visualizations. A function was created to classify each county as very small, small, medium, large and very large based on the county's population. These classifications were then used to create facet plots seperated by county size. A new DataFrame was then created with only counties in the state of Pennsylvania in order to create visualizations on a smaller scale and also incorporate voting data. To do this, a function was created to classify each state as majority democratic or majority republican based on whether the county had more total democratic or republican votes. This was achieved by merging a new dataset with Pennsylvania voting statistics.
@@ -70,9 +72,7 @@ Here are some of those visualizations.
 ![](Visualizations/PAFacetMaskAlways.png)
 
 
-We can see that these scatter plots suggest a slight association between some of these variables and COVID-19 cases. Most notably being the percent of the population that is unisured, which is much more apparent in Pennsylvania alone. There are also positve associations for median household income and the percent of the population that is black or African American. 
-
-There are many different other variables contained in the datasets from the American Community Survey, this project only focuses on a few of them. The final DataFrame that was created in the code contains all variables, which consists of over 1500 different variables in total. This could be beneficial to anyone who wants to conduct research on the COVID-19 as it relates to social, economic and demographic characteristics of counties in the U.S. 
+We can see that these scatter plots suggest a slight association between some of these variables and COVID-19 cases. Most notably being the percent of the population that is unisured, which is much more apparent in Pennsylvania alone. There are also positve associations for median household income and the percent of the population that is black or African American.  
 
 To view the code in more detail and see all visualizations created, see the code file: https://github.com/twarnemiagh/Fall-2020-Independent-Study/blob/main/Independent%20Study.ipynb
 
